@@ -50,7 +50,7 @@ module.exports = function(grunt) {
           grunt.fail.fatal(err);
         }
 
-        npm.commands.install([], function(err) {
+        npm.commands.install([npm.prefix], function(err) {
           if(err) {
             grunt.fail.fatal(err);
           }

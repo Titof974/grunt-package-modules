@@ -1,3 +1,10 @@
+# Fixed version for Windows
+[x] Tested on Win7
+[x] Tested on Win10
+[x] Tested on Ubuntu
+
+________________________________________________
+
 # grunt-package-modules
 
 > Packages node_modules dependencies at build time for addition to a distribution package.
